@@ -756,10 +756,7 @@ transition-duration: var(--transition-duration);
   max-width: 400px;
 }
 
-.about-us{
-  display:flex;
-  height: 2000px;
-}
+
 
 @media(max-width:1919px){
   .motivation-card-image{
