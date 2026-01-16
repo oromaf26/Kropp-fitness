@@ -6,8 +6,8 @@
     <title>Kropp Fitnes</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body class="block">
-    <header class="header block">
+<body>
+    <header class="header">
         <a href="/" class="header-logo">
             <img 
             src="./images/header-logo-kropp.png.png" 
@@ -42,12 +42,12 @@
                 <span class="header-burger-button-line"></span>
                 <span class="header-burger-button-line"></span>
                 <span class="header-burger-button-line"></span>
-</button>
+            </button>
         </div>
     </header>
     <main class="content">
         <h1 class="visually-hidden">Krop Fitness Club</h1>
-        <section class="banner block">
+        <section class="banner ">
             <h2 class="visually-hidden">Upcoming events</h2>
             <div class="banner-body">
                 <div class="banner-info">
@@ -76,7 +76,7 @@ coming up / <time datetime="06-07">june 7</time>&nbsp;-&nbsp;<time datetime="06-
         <section class="motivation">
             <h2 class="visually-hidden">Motivation</h2>
             <ul class="motivation-list">
-                <li class="motivation-item block">
+                <li class="motivation-item ">
                     <div class="motivation-card container">
                         <div class="motivation-card-body">
                             <h3 class="motivation-card-title backdrop-title title-medium" data-title="Strong">Be you, just stronger!<br>Power is in you<br></h3>
@@ -88,7 +88,7 @@ coming up / <time datetime="06-07">june 7</time>&nbsp;-&nbsp;<time datetime="06-
                         <img src="./images/motivation/pull-up.jpg" alt="A man doing pull-ups on a horizontal bar" class="motivation-card-image" width="518" height="760">
                     </div>
                 </li>
-                <li class="motivation-item block">
+                <li class="motivation-item ">
                     <div class="motivation-card container">
                         <div class="motivation-card-body">
                             <h3 class="motivation-card-title backdrop-title title-medium" data-title="Start">Today is the best<br>day to start!</h3>
@@ -102,7 +102,7 @@ coming up / <time datetime="06-07">june 7</time>&nbsp;-&nbsp;<time datetime="06-
                 </li>
             </ul>
         </section>
-        <section class="training-types block">
+        <section class="training-types  container-wide">
             <h2 class="visually-hidden">Types of training</h2>
             <ul class="training-types-list">
                 <li class="training-types-item">
@@ -132,7 +132,7 @@ coming up / <time datetime="06-07">june 7</time>&nbsp;-&nbsp;<time datetime="06-
             </ul>
         </section>
         <section class="join-us">
-            <div class="join-us-video-wraper block">
+            <div class="join-us-video-wraper ">
                 <video class="join-us-video"
                 src=""
                 width="960" height="600"
@@ -141,7 +141,7 @@ coming up / <time datetime="06-07">june 7</time>&nbsp;-&nbsp;<time datetime="06-
                     Play
                 </button>
             </div>
-            <div class="join-us-body container block">
+            <div class="join-us-body container ">
                 <h2 class="join-us-title">Join us</h2>
                 <form class="join-us-form">
                     <header class="join-us-form-header">
@@ -172,8 +172,26 @@ coming up / <time datetime="06-07">june 7</time>&nbsp;-&nbsp;<time datetime="06-
             </div>
 
         </section>
-    </main>
-    <script src="script-header.js"></script>
+        <section class="location container-wide">
+            <div class="location-map">
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4363.325268507592!2d27.0055827593726!3d49.438235383180306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1768509375059!5m2!1sru!2sua" 
+                width="960" height="600" style="border:0;" alt="Branches on the map"
+                allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="location-body">
+                <h2 class="location-title title-medium backdrop-title centered"
+                data-title="Look"
+                >
+                Find us near you</h2>
+                <div class="location-description">
+                    <p>Nec suas signiferumque id. An eum labore commodo principes. Usu diam noluisse cu, nam adipisci</p>
+                </div>
+                <a href="/" class="location-button button transparent">View more</a>
+            </div>
+        </section>
+    </main>  
 </body>
 </html>
 
